@@ -12,3 +12,85 @@ body {
   background-color: rgb(199, 199, 199);
 }
 
+.container {
+  display: inline-block;
+  width: 1000px;
+  margin-left: calc(50% - 500px);
+  background-color: tomato;
+}
+
+header.container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+  padding: 12px;
+  align-items: center;
+ 
+}
+
+.logo {
+  width: 50px;
+  margin-right: auto;
+}
+
+.upper-nav {
+  display: flex;
+  text-transform: uppercase;
+  gap: 20px;
+ 
+}
+
+.upper-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  gap: 20px;
+  
+}
+
+
+.upper-icons {
+  display: flex;
+ 
+}
+.upper-icons i {
+  color: white;
+}
+
+.upper-icons .fa{
+  padding: 10px;
+}
+
+/*CONTENT*/
+
+main.container {
+ position: relative;
+ width: 1000px;
+ margin: calc(50% - 500px);
+ flex-direction: column;
+ background-color: teal;
+}
+
+.about{
+
+}
+
+.about h1{
+
+}
+
+.about p {
+
+}
+
+.price {
+
+}
+
+.price p{
+
+}
+
+.button {
+
+}
